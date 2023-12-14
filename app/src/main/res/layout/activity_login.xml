@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="30dp"
+        android:text="Advanced Tailors"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="30dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/edittextusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:background="@drawable/inputfielddbg"
+        android:hint="Username"
+        android:textColorHint="@color/black"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:background="@drawable/inputfielddbg"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/textcolor"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_loginUser"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:background="@color/teal_700"
+        android:text="lOGIN"
+        android:clickable="true"
+        android:textColor="@color/textcolor"/>
+</LinearLayout>
